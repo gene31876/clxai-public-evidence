@@ -1,0 +1,27 @@
+{
+  "network": "solana-mainnet-beta",
+  "token": {
+    "name": "CLXAI",
+    "symbol": "CLXAI",
+    "decimals": 9,
+    "totalSupply": "1000000000"
+  },
+  "mint": "ECZV4aRyQKz2zr3ZFB9qeb4EzJbzuMCQZ2gpiBQfoHrK",
+  "treasuryVault": "7SfKKpdBTww6UuT2fYUa8fXj6K6Fcj3iCaFWfDZAMyjQ",
+  "treasuryTokenAccount": "7LHWqNVKnJPwCJGB71huK9URRxi7r7ze35JmvDhCJrE6",
+  "metadataUri": "https://arweave.net/wTEhOuq9Fmm_QiTi0Q_kJ8XJeOq8RtIZVDljIB_0YG4",
+  "authorities": {
+    "freeze": null,
+    "mint": null,
+    "metadataUpdate": "7SfKKpdBTww6UuT2fYUa8fXj6K6Fcj3iCaFWfDZAMyjQ"
+  },
+  "transactions": {
+    "createMint": "2sKFCseFBCvUCNVgW5GPS2kLseQAJCFqHpJuHVVRDQGjZZaZKYVDux2cd6VbqFfx5Bip4UofiHfei7QpUHCCTQp6",
+    "createTreasuryAccount": "5rt78XCHjJo6nAkNNTUQQ2u17awJRwU8k3d3vGgrh4S6qgdrA8Wtc3X66KBUJHS6eLXLRhcBhNDLkZXfTqM2ujVR",
+    "mintSupply": "2jHa6shMg4wp7EG6MUf4rTUhPLcw3exo6iSPhPXjii1frRfsUStF5PXUQ1D2TdrehPeZpKibxGs9f6mFFDqCHw6Q",
+    "metadata": "z8r2J4LNSWRqqiqXWyc3gsBxbpMNEZv5cKGLpe7NJizbw26oPH4H4DvGQwMv4SQd1yA5ptMbhJh5v9vM8NEkPaB",
+    "revokeMintAuthority": "5rz3J9pAX3tyawwLyFgi8ViUUfDhKDHWoxLCGwyfPTkePmaDe8Y8XjFStdqTbGoT8dnoDSKPgZSs4pYzLFcat6Zp"
+  },
+  "createdAt": "2026-07-21T17:08:57.383Z",
+  "verifiedAt": "2026-07-21T18:38:29.057Z"
+}

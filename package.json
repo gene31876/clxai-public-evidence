@@ -1,0 +1,13 @@
+{
+  "name": "clxai-public-evidence",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22 <25",
+    "npm": ">=10 <12"
+  },
+  "scripts": {
+    "verify:onchain": "node scripts/verify-onchain.js"
+  }
+}

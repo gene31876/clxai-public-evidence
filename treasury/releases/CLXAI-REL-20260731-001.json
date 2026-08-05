@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "status": "approved-for-squads",
+  "id": "CLXAI-REL-20260731-001",
+  "createdAt": "2026-07-31T09:25:00Z",
+  "network": "solana-mainnet-beta",
+  "treasuryVault": "7SfKKpdBTww6UuT2fYUa8fXj6K6Fcj3iCaFWfDZAMyjQ",
+  "token": {
+    "symbol": "CLXAI",
+    "mint": "ECZV4aRyQKz2zr3ZFB9qeb4EzJbzuMCQZ2gpiBQfoHrK",
+    "decimals": 9
+  },
+  "bucket": "liquidity-reserve",
+  "amount": "1000000",
+  "rawAmount": "1000000000000000",
+  "destination": "4bVPnvoZaogkRsggusFHeojtGM5tf27ovDrVF7xha6SE",
+  "purpose": "One-time liquidity release for the CLXAI/USDC Raydium CPMM launch approved in approvals/2026-07-31-clxai-raydium-launch-approval.md. Covers a single launch ceremony and authorizes no further Treasury releases.",
+  "expectedTreasuryBalanceBefore": "1000000000",
+  "expectedTreasuryBalanceAfter": "999000000",
+  "approvals": [
+    {
+      "reviewer": "ForeverInLaw",
+      "decision": "approve",
+      "reviewedAt": "2026-07-31T09:25:00Z"
+    }
+  ]
+}

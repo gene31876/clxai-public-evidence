@@ -1,0 +1,60 @@
+{
+  "status": "mainnet-deployed",
+  "network": "solana-mainnet-beta",
+  "token": {
+    "symbol": "CLXAI",
+    "mint": "ECZV4aRyQKz2zr3ZFB9qeb4EzJbzuMCQZ2gpiBQfoHrK",
+    "decimals": 9,
+    "totalSupply": "1000000000"
+  },
+  "treasuryVault": "7SfKKpdBTww6UuT2fYUa8fXj6K6Fcj3iCaFWfDZAMyjQ",
+  "controls": {
+    "mode": "paused",
+    "requiredApprovals": 1,
+    "maximumSingleRelease": "1000000",
+    "allowedDestinations": []
+  },
+  "buckets": [
+    {
+      "id": "founder-reserve",
+      "budget": "100000000",
+      "released": "0"
+    },
+    {
+      "id": "liquidity-reserve",
+      "budget": "300000000",
+      "released": "1000000"
+    },
+    {
+      "id": "community-rewards",
+      "budget": "250000000",
+      "released": "0"
+    },
+    {
+      "id": "treasury-development",
+      "budget": "200000000",
+      "released": "0"
+    },
+    {
+      "id": "marketing-partnerships",
+      "budget": "150000000",
+      "released": "0"
+    }
+  ],
+  "releases": [
+    {
+      "id": "CLXAI-REL-20260731-001",
+      "bucket": "liquidity-reserve",
+      "amount": "1000000",
+      "destination": "4bVPnvoZaogkRsggusFHeojtGM5tf27ovDrVF7xha6SE",
+      "signature": "2oJdu925dVYVvEURvCWd3coEECFJDY8GsAfvFvDKiNyhR7xb2G3HgLvSQ2epkufeU2BUGTKqqVZNxjkrXSMcivvt",
+      "reviewers": ["ForeverInLaw"],
+      "status": "executed"
+    }
+  ],
+  "totals": {
+    "budget": "1000000000",
+    "released": "1000000",
+    "treasuryHeld": "999000000"
+  }
+}

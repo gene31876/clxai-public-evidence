@@ -1,0 +1,26 @@
+{
+  "name": "CLXAI",
+  "symbol": "CLXAI",
+  "description": "CLXAI is the native Solana SPL token for the Coin CLXAI ecosystem.",
+  "image": "https://arweave.net/X73oM61TkvT08aS81IsNZuU011qxt8qWyw84VlmSkuE",
+  "external_url": "https://github.com/gene31876/clxai-solana",
+  "attributes": [
+    {
+      "trait_type": "Network",
+      "value": "Solana"
+    },
+    {
+      "trait_type": "Standard",
+      "value": "SPL Token"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://arweave.net/X73oM61TkvT08aS81IsNZuU011qxt8qWyw84VlmSkuE",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "image": {
+    "dataTransactionId": "X73oM61TkvT08aS81IsNZuU011qxt8qWyw84VlmSkuE",
+    "metadataTransactionId": "8WVpO-d8GHiLWT4OAhsisvFCyk7fkeF0MzdsS_vfWh0",
+    "fileId": "39bc123e-7da8-48f1-b569-88945dfbe063",
+    "url": "https://arweave.net/X73oM61TkvT08aS81IsNZuU011qxt8qWyw84VlmSkuE",
+    "sha256": "98d2dc8e4e4c7bd6b2afa724474d8a49b76bea2d18190a5cdf39050891a9bf82",
+    "bytes": 99872,
+    "localPath": "metadata/clxai-logo-arweave.png"
+  },
+  "metadata": {
+    "dataTransactionId": "wTEhOuq9Fmm_QiTi0Q_kJ8XJeOq8RtIZVDljIB_0YG4",
+    "url": "https://arweave.net/wTEhOuq9Fmm_QiTi0Q_kJ8XJeOq8RtIZVDljIB_0YG4",
+    "sha256": "d3a8d1f4d57a3b5c098e1f0327941c04305c3921c7c629c99fe1c61b2f97e4dc",
+    "bytes": 628,
+    "localPath": "metadata/clxai-token-metadata.arweave.json"
+  },
+  "verifiedAt": "2026-07-17T20:00:00+02:00"
+}
