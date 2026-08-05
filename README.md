@@ -32,6 +32,18 @@ Signer identities and recovery materials are not public. Roles, approvals,
 official addresses, transaction signatures, and on-chain results are published
 where appropriate.
 
+## Metadata transparency
+
+The on-chain token metadata is mutable. Its update authority is the Squads
+Treasury vault, so a metadata change requires the configured 2-of-3 multisig
+approval; no individual signer can change it alone.
+
+The permanent Arweave metadata JSON contains a historical `external_url` that
+points to the private development repository. External visitors receive a 404
+because that repository is intentionally not public, and the immutable Arweave
+JSON cannot be edited in place. The canonical public sources are this evidence
+repository and https://core-logic-x.com/.
+
 ## Verify
 
 The read-only verifier loads no wallet or keypair and creates no transaction.
@@ -63,3 +75,6 @@ price, liquidity, volume, and transaction activity.
 scope. Changes should be reviewed before publication. Private development Git
 history, Squads screenshots, key material, server access data, caches, and
 local working files are outside this repository's scope.
+
+`SHA256SUMS` records the SHA-256 digest of every published file other than the
+checksum file itself.

@@ -1,6 +1,6 @@
 # Publication Manifest
 
-Status: local draft pending independent review
+Status: independently reviewed; publication pending final owner decision
 
 This repository is built from an explicit allowlist. It must not inherit the
 private development repository's Git history.
@@ -29,10 +29,10 @@ private development repository's Git history.
 
 Before this repository becomes public:
 
-1. generate and record the complete tree/file hashes;
+1. generate and record the complete file hashes in `SHA256SUMS`;
 2. run secret and personal-data checks;
 3. run `npm run verify:onchain` in a clean copy;
-4. obtain an independent decision on the exact commit;
-5. obtain an explicit owner decision to publish that reviewed commit.
+4. obtain an independent decision on the publication candidate;
+5. obtain an explicit owner decision to publish the reviewed candidate.
 
 No review or publication authorizes token movement.

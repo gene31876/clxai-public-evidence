@@ -39,8 +39,7 @@ against the approved parameters.
   `12BHD3NbYQ7vtQnsJDxQ8KDhdqjHCcUygu2645aAYLtW`
 - Transfer authority: `7SfKKpdBTww6UuT2fYUa8fXj6K6Fcj3iCaFWfDZAMyjQ`, the Squads
   Treasury vault
-- Fee payer: `A5mMpzxrdvF3qLc6JhVwVrDBubeNUuto9gNy1r7SiMfc`, a recorded Squads
-  signer
+- Fee payer: `A5mMpzxrdvF3qLc6JhVwVrDBubeNUuto9gNy1r7SiMfc`
 - Matches release request `CLXAI-REL-20260731-001`
 
 ### 2. Pool creation
