@@ -16,7 +16,8 @@ distribution accounting, and public communication before any larger campaign.
 - Amount per recipient: 1,000 CLXAI
 - Maximum pilot total: 100,000 CLXAI
 - Custody: Squads Treasury `7SfKKpdBTww6UuT2fYUa8fXj6K6Fcj3iCaFWfDZAMyjQ`
-- Approval: two independent reviewers plus the existing 2-of-3 Squads vote
+- Approval: one independent review by `ForeverInLaw`, a separate explicit
+  owner decision by `gene31876`, and the existing 2-of-3 Squads vote
 - Distribution method: Squads Batch Send
 
 These limits are below the Treasury maximum single release of 1,000,000 CLXAI.
@@ -43,12 +44,15 @@ phrases, private keys, or other personal data in the repository.
 5. Record the confirmed CLXAI mint, Raydium pool, activation time, distribution
    time, recipient count, total, and SHA-256 hash of the final CSV.
 6. Run `npm run validate:airdrop -- <campaign.json> <recipients.csv>`.
-7. Obtain two independent reviews of the exact campaign JSON and CSV hash.
-8. Create a normal `community-rewards` Treasury release request.
-9. Re-run validation immediately before entering the Squads Batch Send.
-10. Compare every address, amount, recipient count, and total in Squads against
+7. Obtain an independent review from `ForeverInLaw` of the exact campaign JSON
+   and CSV hash.
+8. Record a separate explicit owner approval from `gene31876` for those exact
+   reviewed files.
+9. Create a normal `community-rewards` Treasury release request.
+10. Re-run validation immediately before entering the Squads Batch Send.
+11. Compare every address, amount, recipient count, and total in Squads against
     the reviewed files. Two Squads members approve and execute the transaction.
-11. Record the Solana transaction signature and update the Treasury ledger.
+12. Record the Solana transaction signature and update the Treasury ledger.
 
 ## Automatic rejection
 
