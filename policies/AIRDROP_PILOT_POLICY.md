@@ -45,9 +45,11 @@ phrases, private keys, or other personal data in the repository.
    time, recipient count, total, and SHA-256 hash of the final CSV.
 6. Run `npm run validate:airdrop -- <campaign.json> <recipients.csv>`.
 7. Obtain an independent review from `ForeverInLaw` of the exact campaign JSON
-   and CSV hash.
+   and CSV hash. Its approval record must contain `recipientsSha256` equal to
+   `distribution.recipientsSha256`.
 8. Record a separate explicit owner approval from `gene31876` for those exact
-   reviewed files.
+   reviewed files, after the independent review. Its approval record must also
+   contain `recipientsSha256` equal to `distribution.recipientsSha256`.
 9. Create a normal `community-rewards` Treasury release request.
 10. Re-run validation immediately before entering the Squads Batch Send.
 11. Compare every address, amount, recipient count, and total in Squads against

@@ -20,11 +20,20 @@ This policy separates review, deployment, treasury approval, migration processin
 
 Reviewer-count policy (2026-07-24): DEX launch approval, Treasury release
 requests, and launch evidence records require one independent technical
-review instead of two, per the committed owner decision
-`approvals/2026-07-24-owner-policy-decision-single-reviewer.md`. The owner
-cannot act as the independent reviewer. The airdrop pilot and migration
-policies keep their own reviewer requirements. The change is not
-retroactive.
+review instead of two under the documented owner decision of that date. The
+owner cannot act as the independent reviewer. The airdrop pilot and migration
+policies keep their own reviewer requirements. The change is not retroactive.
+The underlying owner decision record remains in the private operational
+repository and is outside this curated public evidence scope.
+
+For the Airdrop pilot, the temporary two-person control is one independent
+technical review by `ForeverInLaw` plus a separate explicit owner decision by
+`gene31876`, under the documented temporary owner decision dated 2026-08-05.
+The owner does not count as an independent reviewer. Both decisions must
+reference the exact campaign JSON and recipient CSV hash. Repository access
+alone does not count as approval. The underlying owner decision record remains
+in the private operational repository and is outside this curated public
+evidence scope.
 
 - reviews the pinned repository commit and completes SECOND_REVIEW_CHECKLIST.md;
 - runs only the keyless reviewer commands;
