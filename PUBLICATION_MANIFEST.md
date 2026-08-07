@@ -1,6 +1,6 @@
 # Publication Manifest
 
-Status: independently reviewed; publication pending final owner decision
+Status: public repository; current commit pending independent technical review
 
 This repository is built from an explicit allowlist. It must not inherit the
 private development repository's Git history.
@@ -25,9 +25,9 @@ private development repository's Git history.
 - server credentials, SSH details, deployment access, or private endpoints;
 - unreviewed recipient lists or personal member data.
 
-## Publication gate
+## Reviewed-publication gate
 
-Before this repository becomes public:
+Before any commit is described as independently reviewed public evidence:
 
 1. generate and record the complete file hashes in `SHA256SUMS`;
 2. run secret and personal-data checks;
