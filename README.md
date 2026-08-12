@@ -66,6 +66,11 @@ pool change, or other on-chain action. It is not legal, tax, or investment
 advice and does not promise price, liquidity, returns, listings, allocations,
 or project outcomes.
 
+The current planned Airdrop eligibility snapshot is documented in
+`updates/2026-08-12-airdrop-pilot-schedule-update.md`. Address submission and
+distribution remain closed unless the separately published control gates are
+completed.
+
 Market values change continuously. Use public market sources for current
 price, liquidity, volume, and transaction activity.
 
