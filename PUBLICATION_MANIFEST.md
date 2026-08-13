@@ -12,6 +12,7 @@ private development repository's Git history.
 - public token allocation, custody, and release controls;
 - reviewed launch execution and Treasury release evidence;
 - public Airdrop policy without recipient data;
+- dated public Airdrop status updates without recipient or member data;
 - a read-only on-chain verification script;
 - token metadata and the permanent public logo asset.
 
