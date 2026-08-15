@@ -67,7 +67,9 @@ advice and does not promise price, liquidity, returns, listings, allocations,
 or project outcomes.
 
 The current planned Airdrop eligibility snapshot is documented in
-`updates/2026-08-12-airdrop-pilot-schedule-update.md`. Address submission and
+`updates/2026-08-12-airdrop-pilot-schedule-update.md`. The updated fixed pilot
+allocation is documented in
+`updates/2026-08-15-airdrop-pilot-allocation-update.md`. Address submission and
 distribution remain closed unless the separately published control gates are
 completed.
 
