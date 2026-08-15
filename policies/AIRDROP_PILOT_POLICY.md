@@ -13,15 +13,17 @@ distribution accounting, and public communication before any larger campaign.
 - Source bucket: `community-rewards`
 - Earliest distribution: 24 hours after the Raydium pool becomes active
 - Maximum recipients: 100
-- Amount per recipient: 1,000 CLXAI
-- Maximum pilot total: 100,000 CLXAI
+- Amount per recipient: 10,000 CLXAI
+- Maximum pilot total: 1,000,000 CLXAI
 - Custody: Squads Treasury `7SfKKpdBTww6UuT2fYUa8fXj6K6Fcj3iCaFWfDZAMyjQ`
 - Approval: one independent review by `ForeverInLaw`, a separate explicit
   owner decision by `gene31876`, and the existing 2-of-3 Squads vote
 - Distribution method: Squads Batch Send
 
-These limits are below the Treasury maximum single release of 1,000,000 CLXAI.
-Changing any pilot limit requires a separate reviewed pull request.
+The maximum pilot total equals, but does not exceed, the Treasury maximum
+single release of 1,000,000 CLXAI. A maximum-size distribution still requires
+an exact reviewed release request and all existing approval gates. Changing any
+pilot limit requires a separate reviewed pull request.
 
 ## Eligibility
 
@@ -60,7 +62,7 @@ phrases, private keys, or other personal data in the repository.
 
 The validator rejects malformed CSV, duplicate or invalid addresses, internal
 Treasury/member/operator addresses, non-integer amounts, amounts other than
-1,000 CLXAI, more than 100 recipients, totals above 100,000 CLXAI, mismatched
+10,000 CLXAI, more than 100 recipients, totals above 1,000,000 CLXAI, mismatched
 CSV hashes or totals, wrong network/bucket/vault, a distribution scheduled less
 than 24 hours after launch, and incomplete approvals for an approved campaign.
 
